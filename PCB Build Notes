@@ -11,21 +11,21 @@ Check the pictures for information on how to wire these. Note that one wire on e
 For extra clarity, here is the order of connections written out:
 
 Audio Inputs and Outputs (these are identical)
-- 
--
--
--
--
--
+- Brown: right GND
+- Red: right Tip
+- Orange: UNUSED
+- Yellow: left GND
+- Green: left Tip
+- Blue: left Switch
 
 Footswitch connector:
 
-- 
--
--
--
--
--
+- Brown: Playback GND pin
+- Red: Playback Tip pin
+- Orange: Playback Switch pin
+- Yellow: Record GND pin
+- Green: Record Tip pin
+- Blue: Record Switch pin
 
 # Gametrak
 I generally use a second generation Gametrak, which is easiest to disassemble and reassemble into a new container. When you disassemble a second generation Gametrak you will get two string cartridges. On the potentiometer the wires are connected using a JST connector. On the PCB you have two choices:
@@ -35,6 +35,8 @@ I generally use a second generation Gametrak, which is easiest to disassemble an
 - Orange: string pull distance
 - Red: Joystick Y (or X...)
 - Brown: Ground
+
+You can also connect any potentiometers or analog inputs to these pins! You'll just need to figure out how to connect all three to the single power pin and single ground pin. The next version of the PCB will have extra 2.54" pin sockets for anyone who wants to connect normal potentiometers more easily (or if you want to hack an earlier model Gametrak). 
 
 See the pictures to make sure. 
 
