@@ -29,7 +29,8 @@ Footswitch connector:
 
 # Gametrak
 I generally use a second generation Gametrak, which is easiest to disassemble and reassemble into a new container. When you disassemble a second generation Gametrak you will get two string cartridges. On the potentiometer the wires are connected using a JST connector. On the PCB you have two choices:
-1. use an identical JST connector to the one on the Gametrak, and connect the gametrak to the PCB using a socket-to-socket five pin JST cable (you can buy these premade or crimp them yourself), or solder some 2.54" pins to the PCB and connect the gametrak to those somehow. The Gametrak wires are color-coded, and the order needs to be preserved to work on the PCB. These are:
+1. use an identical JST connector to the one on the Gametrak, and connect the gametrak to the PCB using a socket-to-socket five pin JST cable (you can buy these premade or crimp them yourself)
+2. solder some 2.54" pins to the PCB and connect the gametrak to those somehow, either soldering the wires to the PCB or crimping 2.54" pins onto the Gametrak wires. When you hack out a rev2 Gametrak the wires are color-coded, and the order needs to be preserved to work on the PCB. These are:
 - Green: Power
 - Yellow: Joystick X (or Y? it's sometimes difficult to guess)
 - Orange: string pull distance
@@ -48,4 +49,7 @@ These boards use pretty standard "tactile" buttons. The bigger buttons are the "
 
 # Daisy Seed & Pure Data
 The software is made in Pure Data. I would recommend using Plug Data for flashing the code. To load the code onto the Daisy, open the "_mainPatch.pd" file and go to the "compile" window from the menu in Plug Data. Choose "Electro-Smith Daisy". Set the Target Board to "Custom JSON" and select the "granularDaisy.json" file. Set Blocksize to 10, samplerate to 48000, and Patch size to "Big + SDRAM". On the Seed, press and hold "Boot" and then press "reset". Then click "Flash" in the compiler. This should load the code onto the Daisy. If you need help with any of that I suggest first checking the Daisy getting started pages!
+
+# Check the KiCAD
+This repo also has the the KiCAD project included so you can check the circuit and layout if you aren't sure (and if you know how to use KiCAD!). 
 
