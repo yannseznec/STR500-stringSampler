@@ -1,7 +1,7 @@
 ### STR500 Build notes (v1.0 and 1.1)
 
 ## Important note for v1.0
-The PCB for v1.0 has a mistake on the silkscreen, which implies that the diode should be mounted backwards. Make sure to flip the diode around to that the flow of electricty goes from the edge of the board towards the Daisy. Check the picture for clarity.
+The PCB for v1.0 has a mistake on the silkscreen, which implies that the diode should be mounted backwards. Make sure to flip the diode around to that the flow of electricity goes from the edge of the board towards the Daisy. Check the picture for clarity.
 
 ## Wiring the Molex connectors
 For ease of build I used pre-wired 6-way Molex connectors for the audio inputs, outputs, and footswitch controls. I also used a pre-wired 2-way connector for Power.
@@ -51,5 +51,5 @@ These PCBs use pretty standard "tactile" buttons. The bigger buttons are the "12
 The software is made in Pure Data. I would recommend using Plug Data for flashing the code. To load the code onto the Daisy, open the "_mainPatch.pd" file and go to the "compile" window from the menu in Plug Data. Choose "Electro-Smith Daisy". Set the Target Board to "Custom JSON" and select the "granularDaisy.json" file. Set Blocksize to 10, samplerate to 48000, and Patch size to "Big + SDRAM". On the Seed, press and hold "Boot" and then press "reset". Then click "Flash" in the compiler. This should load the code onto the Daisy. If you need help with any of that I suggest first checking the Daisy getting started pages!
 
 # Check the KiCAD
-This repo also has the the KiCAD project included so you can check the circuit and layout if you aren't sure (and if you know how to use KiCAD!). 
+This repo also has the KiCAD project included so you can check the circuit and layout if you aren't sure (and if you know how to use KiCAD!). 
 
