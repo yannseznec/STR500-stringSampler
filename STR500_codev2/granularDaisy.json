@@ -1,0 +1,62 @@
+ {
+  "name": "test",
+  "som": "seed",
+  "defines": {
+  "OOPSY_TARGET_HAS_MIDI_INPUT": 1
+  },
+  "display": {},
+  "audio": {
+  "channels": 2
+  },
+  "components": {
+    "led": {
+    "component": "Led",
+    "pin": 11,
+    "direction": "out"
+    },
+    "sw0": {
+      "component": "Switch",
+      "pin": 5
+    },
+    "sw1": {
+      "component": "Switch",
+      "pin": 6
+    },
+    "sw2": {
+      "component": "Switch",
+      "pin": 1
+    },
+    "sw3": {
+      "component": "Switch",
+      "pin": 2
+    },
+    "sw4": {
+      "component": "Switch",
+      "pin": 4
+    },
+    "sw5": {
+      "component": "Switch",
+      "pin": 3
+    },
+    "sw6": {
+      "component": "Switch",
+      "pin": 9
+    },
+    "knob1": {
+      "component": "AnalogControl",
+      "pin": 15
+    },
+    "knob2": {
+      "component": "AnalogControl",
+      "pin": 16
+    },
+    "knob3": {
+      "component": "AnalogControl",
+      "pin": 17
+    },
+    "knob4": {
+      "component": "AnalogControl",
+      "pin": 18
+    }
+  }
+}
