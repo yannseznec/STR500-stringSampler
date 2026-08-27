@@ -1,6 +1,6 @@
 #N canvas 50 89 1360 847 12;
 #X obj 82 244 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 519 42 hsl 162 19 0 1 0 0 empty empty empty -2 -10 0 12 #feffc6 #000000 #000000 0 1;
+#X obj 497 37 hsl 162 19 0 1 0 0 empty empty empty -2 -10 0 12 #feffc6 #000000 #000000 0 1;
 #X obj 515 73 s grainLocation;
 #X obj 81 207 metro;
 #X obj 85 63 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
@@ -17,7 +17,7 @@
 #X obj 182 509 singleGrain 4;
 #X obj 182 534 singleGrain 5;
 #X msg 387 495 \; pd dsp 1;
-#N canvas 110 154 896 684 sampling 0;
+#N canvas 110 154 896 684 sampling 1;
 #X obj 248 160 timer;
 #X obj 243 105 sel 1 0;
 #X floatatom 248 181 7 0 0 0 - - - 0;
@@ -32,14 +32,15 @@
 #X obj 184 27 inlet;
 #X obj 253 209 t b f;
 #X obj 340 249 * 48;
-#X floatatom 342 293 8 0 0 0 - - - 0;
+#X floatatom 340 353 10 0 0 0 - - - 12;
 #X obj 275 434 *~;
 #X obj 65 397 print;
 #X obj 111 225 bng 25 250 50 0 empty empty empty 17 7 0 10 #e4e4e4 #4d4d4d #373737;
 #X obj 103 282 delay 200;
 #X obj 111 513 tabwrite~ stringSampleL;
 #X obj 327 513 tabwrite~ stringSampleR;
-#X obj 410 293 s length-samples;
+#X obj 428 332 s length-samples;
+#X obj 428 231 clip 0 480000;
 #X connect 0 0 2 0;
 #X connect 1 0 0 0;
 #X connect 1 0 9 0;
@@ -62,11 +63,12 @@
 #X connect 11 0 1 0;
 #X connect 11 0 4 0;
 #X connect 12 1 13 0;
-#X connect 13 0 14 0;
-#X connect 13 0 21 0;
+#X connect 13 0 22 0;
 #X connect 15 0 20 0;
 #X connect 17 0 18 0;
 #X connect 18 0 8 0;
+#X connect 22 0 21 0;
+#X connect 22 0 14 0;
 #X restore 301 129 pd sampling;
 #N canvas 0 22 450 278 (subpatch) 0;
 #X array stringSampleR 480000 float 2;
@@ -108,7 +110,7 @@
 #X obj 299 73 t f b;
 #X obj 81 25 change;
 #X obj 80 3 r sw1_press @hv_param;
-#N canvas 67 170 1081 650 stringControl 1;
+#N canvas 67 170 1081 650 stringControl 0;
 #X obj 289 57 r knob2 @hv_param;
 #X obj 428 232 f;
 #X obj 428 51 loadbang;
@@ -270,7 +272,7 @@
 #X connect 43 0 27 0;
 #X restore 563 104 pd stringControl;
 #X text 567 122 and calibration;
-#N canvas 733 172 450 300 filter_and_output 0;
+#N canvas 733 172 450 300 filter_and_output 1;
 #X obj 273 345 catch~ grainAudioL;
 #X obj 520 345 catch~ grainAudioR;
 #X obj 352 918 dac~;

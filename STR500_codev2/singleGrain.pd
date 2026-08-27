@@ -61,8 +61,8 @@
 #X obj 151 138 sel \$1;
 #X obj 516 665 tabread4~ stringSampleR;
 #X obj 483 850 *~;
-#X obj 439 940 throw~ grainAudioL;
-#X obj 616 939 throw~ grainAudioR;
+#X obj 505 1022 throw~ grainAudioL;
+#X obj 682 1021 throw~ grainAudioR;
 #X obj 128 207 t b b b b b b;
 #X obj 429 594 r windowLength;
 #X obj 429 640 f;
