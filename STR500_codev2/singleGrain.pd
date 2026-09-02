@@ -59,7 +59,7 @@
 #X obj 800 392 * 48000;
 #X obj 151 114 r bangGrains;
 #X obj 151 138 sel \$1;
-#X obj 516 665 tabread4~ stringSampleR;
+#X obj 503 677 tabread4~ stringSampleR;
 #X obj 483 850 *~;
 #X obj 505 1022 throw~ grainAudioL;
 #X obj 682 1021 throw~ grainAudioR;
