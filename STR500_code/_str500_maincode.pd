@@ -279,8 +279,8 @@
 #X connect 46 0 47 0;
 #X connect 47 0 4 0;
 #X connect 48 0 46 0;
-#X restore 292 290 pd stringControl;
-#X text 296 308 and calibration;
+#X restore 297 414 pd stringControl;
+#X text 301 432 and calibration;
 #N canvas 733 172 450 300 filter_and_output 0;
 #X obj 273 345 catch~ grainAudioL;
 #X obj 520 345 catch~ grainAudioR;
@@ -405,7 +405,7 @@
 #X connect 51 0 25 0;
 #X connect 55 0 27 0;
 #X connect 59 0 31 0;
-#X restore 296 391 pd filter_and_output;
+#X restore 295 389 pd filter_and_output;
 #N canvas 733 172 450 300 pitchControl 0;
 #X floatatom 236 505 5 0 0 0 - - - 12;
 #X obj 236 395 spigot;
@@ -467,7 +467,7 @@
 #X connect 28 0 26 1;
 #X connect 29 0 5 0;
 #X connect 29 1 28 0;
-#X restore 296 360 pd pitchControl;
+#X restore 295 364 pd pitchControl;
 #N canvas 733 172 450 300 globalParameters 0;
 #X obj 241 353 hsl 162 19 0 1 0 0 empty empty empty -2 -10 0 12 #feffc6 #000000 #000000 0 1;
 #X obj 185 409 s grainLength;
@@ -495,7 +495,7 @@
 #X connect 13 0 2 0;
 #X connect 14 0 5 0;
 #X connect 15 0 10 0;
-#X restore 296 433 pd globalParameters;
+#X restore 296 467 pd globalParameters;
 #X obj 603 422 hsl 162 19 0 1 0 0 empty empty empty -2 -10 0 12 #feffc6 #000000 #000000 0 1;
 #X obj 600 458 s pitch_debug, f 14;
 #X obj 603 362 tgl 18 0 empty empty empty 0 -10 0 10 #e4e4e4 #4d4d4d #373737 0 1;
@@ -515,6 +515,9 @@
 #X text 321 63 code v1.2.0;
 #X obj 76 456 % 8;
 #X obj 119 234 / 8;
+#X text 299 257 to-do:;
+#X text 300 280 experiment with smaller grain sizes?;
+#X text 300 299 make the less-than-zero on string fade the audio?;
 #X connect 0 0 23 0;
 #X connect 0 0 26 0;
 #X connect 1 0 2 0;
