@@ -110,7 +110,7 @@
 #X obj 301 156 t f b;
 #X obj 83 108 change;
 #X obj 82 86 r sw1_press @hv_param;
-#N canvas 67 170 1081 650 stringControl 0;
+#N canvas 67 170 1081 650 stringControl 1;
 #X obj 289 57 r knob2 @hv_param;
 #X obj 428 232 f;
 #X obj 428 51 loadbang;

@@ -1,10 +1,10 @@
 #N canvas 827 239 734 565 12;
 #X obj 201 412 dac~;
 #X obj 198 155 osc~ 300;
-#X obj 495 415 s led @hv_param;
-#X obj 497 283 loadbang;
-#X obj 499 365 tgl 25 0 empty empty empty 0 -10 0 10 #e4e4e4 #4d4d4d #373737 0 1;
-#X msg 503 317 0;
+#X obj 409 288 s led @hv_param;
+#X obj 411 156 loadbang;
+#X obj 413 238 tgl 25 0 empty empty empty 0 -10 0 10 #e4e4e4 #4d4d4d #373737 0 1;
+#X msg 417 190 0;
 #X obj 278 266 line~;
 #X msg 285 214 0.3 \, 0 300;
 #X obj 297 138 loadbang;
