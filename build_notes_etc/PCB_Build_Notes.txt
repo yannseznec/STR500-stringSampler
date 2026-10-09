@@ -41,7 +41,7 @@ These are kind of optional, they should theoretically lessen the noise on the au
 I use nice MEC buttons for the bigger buttons. The smaller buttons are generic 6x6x13 tactile buttons, you can probably find different ones from the ones on the BOM. 
 
 # Daisy Seed & Pure Data
-The software is made in Pure Data. I would recommend using Plug Data for flashing the code. To load the code onto the Daisy, open the "_mainPatch.pd" file and go to the "compile" window from the menu in Plug Data. Choose "Electro-Smith Daisy". Set the Target Board to "Custom JSON" and select the "STR500_definitions.json" file. Set Blocksize to 10, samplerate to 48000, and Patch size to "Big + SDRAM". On the Seed, press and hold "Boot" and then press "reset". Then click "Flash" in the compiler. This should load the code onto the Daisy. If you need help with any of that I suggest first checking the Daisy getting started pages!
+See the STR500_code folder for the code and some information on how to load it onto the Seed.
 
 # Check the KiCAD
 This repo also has the KiCAD project included so you can check the circuit and layout if you aren't sure (and if you know how to use KiCAD!). 
