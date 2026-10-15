@@ -7,21 +7,34 @@ For my builds of the STR-500 I use a second generation Gametrak, which is easies
 
 When you disassemble a second generation Gametrak you will get two string cartridges. Each cartridge has wires connected to the string and joystick with a 5 pin JST connector. On the PCB you have two choices:
 1. use an identical JST connector to the one on the Gametrak, and connect the gametrak to the PCB using a socket-to-socket five pin JST cable (you can buy these premade or crimp them yourself)
-2. solder some 2.54" pins to the PCB and connect the gametrak to those somehow, either soldering the wires to the PCB or crimping 2.54" pins onto the Gametrak wires. When you hack out a second generation Gametrak the wires are color-coded, and the order needs to be preserved to work on the PCB. These are:
+2. solder some 2.54mm pins to the PCB and connect the gametrak to those somehow, either soldering the wires to the PCB or crimping 2.54mm pins onto the Gametrak wires. When you hack out a second generation Gametrak the wires are color-coded, and the order needs to be preserved to work on the PCB. These are:
 - Green: Power
 - Yellow: Joystick X (or Y? it's sometimes difficult to guess)
 - Orange: string pull distance
 - Red: Joystick Y (or X...)
 - Brown: Ground
 
-You can also connect any potentiometers or analog inputs to these pins! You'll just need to figure out how to connect all three to the single power pin and single ground pin. The v2.1 version of the PCB has extra 2.54" pin sockets for anyone who wants to connect normal potentiometers more easily or if you want to hack an earlier model Gametrak. The first version Gametrack did not have unified power and ground pins, and the string is not as usefully self-contained. 
+You can also connect any potentiometers or analog inputs to these pins! You'll just need to figure out how to connect all three to the single power pin and single ground pin. The v2.1 version of the PCB has extra 2.54mm pin sockets for anyone who wants to connect normal potentiometers more easily or if you want to hack an earlier model Gametrak. The first version Gametrack did not have unified power and ground pins, and the string is not as usefully self-contained. 
 To-do: make a guide for connecting any analog inputs to these pins.
 
 ## Wiring the Molex connectors
-For ease of build I used pre-wired 6-way Molex connectors for the footswitch controls. I also use pre-wired 2-way connectors for Power and Audio input/output. These attach to standard molex pins on the PCB. They use standard 2.54" hole distances, so other methods are possible.
+For ease of build I used pre-wired 6-way Molex connectors for the footswitch controls. I also use pre-wired 2-way connectors for Power and Audio input/output. These attach to standard molex pins on the PCB. They use standard 2.54mm hole distances, so other methods are possible.
+
+## Note! Possibly confusing Molex footprint!
+The PCB version 1.2 (labeled October 2026) has a possibly confusing screenprint illustration for the audio input and output pins. The outline implies that the Molex should be mounted with the back support facing the board. If you buy the pre-crimped 2-pin cables that are linked on the BOM, and you want to color code the brown cables to ground, you should actually mount the Molex pins in the opposite direction. This will ensure that the red wires are carrying signal and the brown wires are carrying ground. The "-" symbol on the board is indicating the correct pin for ground. 
+
+You can approach the wiring of those holes in many ways, so this may not apply to you at all. Just be sure that the pins labeled "-" are connected to the ground pin on your audio sockets. 
+
+![Showing the possibly confusing Molex pins](STR500_1.2_PCB_bottom.jpg)
+
+Here are some completed STR-500 PCBs (without Seed microcontrollers) for reference. These pictures show the August 2026 version, which is nearly identical to the October 2026 version.
+
+![STR-500 PCBs, populated with components](STR500_1.2_PCB_complete.jpg)
+
 
 ### Audio Inputs and Outputs (these are identical)
 - to do: fill this out and add photos
+- make sure to explain how I'm wiring up the switching mono/stereo
 
 
 ### Footswitch pins
