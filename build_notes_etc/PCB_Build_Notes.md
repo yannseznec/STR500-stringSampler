@@ -21,7 +21,7 @@ To-do: make a guide for connecting any analog inputs to these pins.
 
 
 ## Wiring the Molex connectors
-For ease of build I used pre-wired 6-way Molex connectors for the footswitch controls. I also use pre-wired 2-way connectors for Power and Audio input/output. These attach to standard molex pins on the PCB. They use standard 2.54mm hole distances, so other methods are possible.
+For ease of build I used pre-wired 6-way Molex connectors for the footswitch controls. I also use pre-wired 2-way connectors for Power and Audio input/output. These attach to standard molex pins on the PCB. They use standard 2.54mm hole distances, so other methods are possible. I find the Molex system to be very useful in terms of being able to mount the connectors and Gametrak separately in the box while retaining stability once they are plugged in.
 
 ## Note! Possibly confusing Molex footprint!
 The PCB version 1.2 (labeled October 2026) has a possibly confusing screenprint illustration for the audio input and output pins. The outline implies that the Molex should be mounted with the back support facing the board. If you buy the pre-crimped 2-pin cables that are linked on the BOM, and you want to color code the brown cables to ground, you should actually mount the Molex pins in the opposite direction. This will ensure that the red wires are carrying signal and the brown wires are carrying ground. The "-" symbol on the board is indicating the correct pin for ground. 
@@ -36,9 +36,9 @@ Here are some completed STR-500 PCBs (without Seed microcontrollers) for referen
 
 
 ## Audio Inputs and Outputs (these are identical)
-The audio input and output are both split into left and right, and each input and output channel have an accompanying ground. In the STR-500 code there is no switching between mono and stereo, it is always running both channels simultaneously. That means if you want to just stay in mono you could just use the Left (or Right) input an use the Left (or Right) input.
+The audio input and output are both split into left and right, and each input and output channel have an accompanying ground. In the STR-500 code there is no switching between mono and stereo, it is always running both channels simultaneously. That means if you want to just stay in mono you could just use the Left (or Right) input and use the Left (or Right) input.
 
-I, however, personally prefer to have the input and output channels switchable between mono and stereo. To achieve this in the simplest and most flexible way possible, I do the switching using switchable jacks such as the ones listed in the BOM. 
+I, however, personally prefer to have both the input and output channels switchable between mono and stereo. To achieve this in the simplest and most flexible way possible, I do the switching using switchable jacks such as the ones listed in the BOM. 
 
 For each channel, input and output, the sockets have their signal (tip) pins connected to the signal pin on the PCB, and their grounds connected to the ground pin (labeled "-" on the board). The switching pin for sockets for the Right channels (input and output) are connected to the signal pins on the Left channel. Thus, when nothing is plugged into the Right channel, the signal going to (or from) the Right channel is routed directly to the Left channel.
 
@@ -77,6 +77,13 @@ Be sure to mount the molex socket in the correct orientation to ensure that the 
 
 ## Capacitors
 These are kind of optional, they should theoretically lessen the noise on the audio output. Different values may give you different results, and the audio will work perfectly fine without them (albeit with some noise). 
+
+## Power
+The power system is extremely simple, using just a single diode for polarity safety. I use a standard 2.1mm DC socket connected to the 2-pin molex on the board. **Be very certain to connect the polarity correctly**. The +Vin pin is clearly marked on the PCB. 
+
+The diode and the toggle switch are required when using the molex pin power input. You can of course bypass these if you really want!
+
+You can also power the whole thing through USB by simply plugging in the Seed using a standard USB-C (for the Seed3) or micro USB (for the Seed2) cable. If you use USB power the power switch and diode will not work. 
 
 ## Buttons
 I use nice MEC buttons for the bigger buttons. The smaller buttons are generic 6x6x13 tactile buttons, you can probably find different ones from the ones on the BOM. 
