@@ -7,6 +7,6 @@ This granular patch is essentially the same as the ys.granular system also avail
 
 The main difference is that this version does not use the [clone] object, which is not supported by the Heavy compiler required by the Daisy Seed. There are probably a few other similar changes that I can't remember right now.
 
-This patch is particularly designed for use with a Gametrak string controller, resulting in a gestural sampling machine that I call the STR-500. More details on that coming at some point, you can see videos of it on my instagram if you like: https://www.instagram.com/p/DPdloWzjOOb/
+This patch is particularly designed for use with a Gametrak string controller, resulting in a gestural sampling machine that I call the STR-500. If you've made it this far I suspect you are aware of that thing by now.
 
 For the STR-500 on Daisy Seed there is a JSON file (STR500_definitions.json) included for getting the interface elements (buttons, switches, Gametrak) connected to the Seed correctly. At some point I'll make a more detailed guide for how to get that to work. 
