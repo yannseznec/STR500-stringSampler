@@ -2,7 +2,7 @@
 
 This is all of the code and build info for the STR-500 gestural granular synthesizer. Watch this video for some background on the project and to see the instrument in action: https://youtu.be/luxsUPbPhyk 
 
-![a picture of a finished STR-500](build_notes_etc/STR500_finalbuild.jpg)
+![a picture of a finished STR-500](build_notes_etc/pictures/STR500_finalbuild.jpg)
 
 The STR-500 is a granular synthesizer built for the Daisy Seed which uses a salvaged Gametrak string controller to playback a recorded sample. 
 
