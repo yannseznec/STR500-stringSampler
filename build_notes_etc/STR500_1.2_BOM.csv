@@ -3,7 +3,7 @@ IC socket for Daisy,2,https://www.electrokit.com/hylslist-2.54mm-1x20p,https://s
 Small buttons,2,https://www.electrokit.com/en/tryckknapp-pcb-6x6x12mm-svart,,
 Bigger buttons,2,https://se.rs-online.com/web/p/taktila-stromstallare/7651563,https://www.digikey.se/sv/products/detail/mec-switches/5GTH935/2411559,MEC 5GTH935
 Big button caps,2,https://se.rs-online.com/web/p/taktila-stromstallartoppar/7651324,https://www.digikey.se/sv/products/filter/tillbehör-lock/210?s=N4IgTCBcDaILYFMDGACAjAEwM4gLoF8g,"So many nice colors possible, not all easy to find. "
-Switches RND 210-00471,3,https://www.electrokit.com/en/vippomkopplare-sub-miniatyr-1-pol-on-on-pcb,https://www.digikey.se/en/products/detail/e-switch/200MSP1T1B1M2QEH/378916,"Need to check the Digikey ones to see, I think they are better. Main thing is 3 pin with .1” spacing"
+Switches RND 210-00471,3,https://www.digikey.se/en/products/detail/e-switch/200MSP1T1B1M2QEH/378916,,"Other models are likely possible. Main thing is 3 pin with .1” spacing"
 Capacitors,2,,,"1 electrolytic 220µf, 1 .1µf ceramic"
 Resistor,1,,,"220ohm (roughly, for LED)"
 LED,1,,,I use 5mm

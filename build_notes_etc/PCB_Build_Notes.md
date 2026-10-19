@@ -63,12 +63,12 @@ The main downside is that it means that if nothing is connected to the Footswitc
 ### Making the Footswitch connector
 Here is how I wire up the 6-pin footswitch connector using the precrimped Molex cables I link to on the BOM:
 
-- Brown: Playback GND pin
-- Red: Playback Tip pin
-- Orange: Playback Switch pin
-- Yellow: Record GND pin
-- Green: Record Tip pin
-- Blue: Record Switch pin
+- Brown: Record GND pin
+- Red: Record Tip pin
+- Orange: Record Switch pin
+- Yellow: Playback GND pin
+- Green: Playback Tip pin
+- Blue: Playback Switch pin
 
 Be sure to mount the molex socket in the correct orientation to ensure that the color coding makes sense.
 

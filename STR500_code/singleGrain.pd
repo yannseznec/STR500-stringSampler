@@ -75,6 +75,9 @@
 #X floatatom 632 304 5 0 0 0 - - - 12;
 #X obj 632 337 *;
 #X obj 564 371 clip -0.5 1;
+#X obj 583 966 *~;
+#X obj 655 975 *~;
+#X obj 770 920 r grainVolume;
 #X connect 0 0 1 0;
 #X connect 1 0 38 0;
 #X connect 2 0 1 1;
@@ -114,8 +117,8 @@
 #X connect 32 0 31 0;
 #X connect 33 0 36 1;
 #X connect 33 0 37 1;
-#X connect 34 0 62 0;
-#X connect 35 0 63 0;
+#X connect 34 0 76 0;
+#X connect 35 0 77 0;
 #X connect 36 0 25 0;
 #X connect 37 0 30 0;
 #X connect 38 0 56 0;
@@ -162,3 +165,7 @@
 #X connect 73 0 75 2;
 #X connect 74 0 75 0;
 #X connect 75 0 21 0;
+#X connect 76 0 62 0;
+#X connect 77 0 63 0;
+#X connect 78 0 77 1;
+#X connect 78 0 76 1;
