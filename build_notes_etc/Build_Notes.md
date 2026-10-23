@@ -1,5 +1,12 @@
 # STR500 Build notes (v1.2)
 
+Some details on the STR-500. 
+
+## PCB build guide
+
+For step-by-step instructions on soldering the STR-500 PCB, go to the 
+[PCB_build_instructions](PCB_instructions/PCB_build_instructions.md) file.
+
 ## Gametrak
 For my builds of the STR-500 I use a second generation Gametrak, which is easiest to disassemble and reassemble into a new container. See this video for info on how to hack: https://youtu.be/JUrJCBs35Bo 
 
