@@ -3,6 +3,10 @@ This is a granular sampling system that runs on a Daisy Seed microcontroller. As
 
 Written in Pure Data. The easiest way to get it running on a Seed is to use PlugData for compiling. I use the "Big + SDRAM" SRAM setting in the compiler to allow for the relatively long sampling time. I set the blocksize to 100 for now. 
 
+For a step-by-step demonstration of flashing a new Daisy Seed with this code, watch this video! https://youtu.be/BN6O2XX6sH4
+
+The process is slightly simpler for flashing the code to a Seed that has already had this code (or other code that also requires the bootloader). Another video will follow at some point showing how that works.
+
 This granular patch is essentially the same as the ys.granular system also available here on my github: https://github.com/yannseznec/ys.granular
 
 The main difference is that this version does not use the [clone] object, which is not supported by the Heavy compiler required by the Daisy Seed. There are probably a few other similar changes that I can't remember right now.
