@@ -6,7 +6,8 @@ Big button caps,2,https://se.rs-online.com/web/p/taktila-stromstallartoppar/7651
 Switches RND 210-00471,3,https://www.digikey.se/en/products/detail/e-switch/200MSP1T1B1M2QEH/378916,,"Other models are likely possible. Main thing is 3 pin with .1” spacing"
 Capacitors,2,,,"1 electrolytic 220µf, 1 .1µf ceramic"
 Resistor,1,,,"220ohm (roughly, for LED)"
-LED,1,,,I use 5mm
+LED,1,,,I use yellow 5mm
+Diode,1,1n4001
 Molex 6pin connectors,1,https://www.electrokit.com/en/kontakt-kk-pcb-2.54mm-6-pol,https://se.farnell.com/multicomp-pro/mc34635/header-square-pin-2-54mm-6way/dp/1675768,For the foot switch connector. If not using foot switches you can avoid this and just bridge four pins (see the build notes)
 Molex 2pin connectors,5,https://se.farnell.com/multicomp-pro/mc34629/header-tht-vertical-2-54mm-2way/dp/1675764,,For audio in/out and power connector. You can choose other connection options using the 2.54” holes
 JST connector,1,https://www.electrokit.com/en/stiftlist-ph-5-pol-2.0mm,,"For easy Gametrak connection. Other connection options available, see build notes"
