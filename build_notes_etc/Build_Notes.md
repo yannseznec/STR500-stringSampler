@@ -93,10 +93,15 @@ The diode and the toggle switch are required when using the molex pin power inpu
 You can also power the whole thing through USB by simply plugging in the Seed using a standard USB-C (for the Seed3) or micro USB (for the Seed2) cable. If you use USB power the power switch and diode will not work. 
 
 ## Buttons
-I use nice MEC buttons for the bigger buttons. The smaller buttons are generic 6x6x13 tactile buttons, you can probably find different ones from the ones on the BOM. 
+I use nice MEC buttons for the bigger buttons. The button caps are sold separately, there is a wide variety of possible button shapes and colors. I use the "DS" series buttons, which fit into 10mm holes. 
+
+The smaller buttons are generic 6x6x13 tactile buttons, you can probably find different ones from the ones on the BOM. 
 
 ## Daisy Seed & Pure Data
 See the STR500_code folder for the code and some information on how to load it onto the Seed.
+
+## Enclosure
+I am using Hammond 1590V enclosures. They are available unpainted (1590V), pre-painted black (1590VBK) or grey (1590VGY). Check the [enclosure readme](../STR500_v1.2_enclosure/) for information on how I prepare these. 
 
 ## Check the KiCAD
 This repo also has the KiCAD project included so you can check the circuit and layout if you aren't sure (and if you know how to use KiCAD!). 
