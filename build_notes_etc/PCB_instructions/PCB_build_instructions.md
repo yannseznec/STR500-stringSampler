@@ -57,7 +57,7 @@ Solder the pins from the back, and then remove the Seed so that you don't accide
 ![Sockets with Seed removed](pictures/PCB_step5e.jpg)
 
 ## Step 6: the electrolytic capacitor
-The last step on this side of the board is the solder the bigger capacitor. I do this last because because (depending on the exact model capacitor) it is usually the tallest component on the board.
+The last step on this side of the board is the solder the bigger capacitor. I do this last because because (depending on the exact model capacitor) it is usually the tallest component on the board. Make sure you orient it correctly, with the longer leg in the hole marked "+". 
 
 ![Last capacitor](pictures/PCB_step6.jpg)
 
@@ -71,7 +71,7 @@ These buttons, and the ones in the next step, tend to stay in place nicely while
 
 ## Step 8: the smaller buttons
 
-Move onto the small buttons and solder them in.
+Move onto the small buttons and solder them in. These pictures show the more generic buttons, but if you buy the E-Switch buttons they are basically the same idea, just that you get the height with the caps that you put on seperately.
 
 
 ![small buttons](pictures/PCB_step8.jpg)
