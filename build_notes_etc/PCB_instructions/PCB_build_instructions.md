@@ -85,6 +85,8 @@ The switches can be fiddly and tricky to align correctly. My own method is to us
 
 This method only works if you have a pre-drilled lid, of course! If you don't, you'll need to figure out your own method. Good luck!
 
+A note about the switches: the PCB v1.2 (October 2026) has the pitch and filter switches labeled incorrectly on the board. The pitch should be filter, and vice versa. This doesn't change anything materially, it can just be confusing, sorry about that! The next version of the PCB will correct this.
+
 ## Step 10: the LED
 
 The LED sits next to the power switch. I usually just place this by eye, getting the height so that the ridge of the LED is just below the body of the switch. Be sure that the long leg of the LED is in the hole labeled "+". 

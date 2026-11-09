@@ -8,7 +8,7 @@ For step-by-step instructions on soldering the STR-500 PCB, go to the
 [PCB_build_instructions](PCB_instructions/PCB_build_instructions.md) file.
 
 ## Gametrak
-For my builds of the STR-500 I use a second generation Gametrak, which is easiest to disassemble and reassemble into a new container. See this video for info on how to hack: https://youtu.be/JUrJCBs35Bo 
+For my builds of the STR-500 I use a second generation Gametrak, which is easiest to disassemble and reassemble into a new container. See this video for info on how to hack: https://youtu.be/GELGBzM0ZOE 
 
 ![a picture of a hacked Gametrak string](pictures/STR500_gametrak.jpg)
 
@@ -40,6 +40,9 @@ You can approach the wiring of those holes in many ways, so this may not apply t
 Here are some completed STR-500 PCBs (without Seed microcontrollers) for reference. These pictures show the August 2026 version, which is nearly identical to the October 2026 version.
 
 ![STR-500 PCBs, populated with components](pictures/STR500_1.2_PCB_complete.jpg)
+
+## mislabeled switches on the PCB 1.2 (October 2026)
+Another aesthetic mistake - the filter and pitch switches are mislabeled on the PCB v1.2 (October 2026). They switch that the code uses as a filter is in fact the pitch, and vice versa. This can be confusing! The enclosure design that I use labels the switches correctly. The next version of the PCB will correct this. 
 
 
 ## Audio Inputs and Outputs (these are identical)
@@ -95,7 +98,7 @@ You can also power the whole thing through USB by simply plugging in the Seed us
 ## Buttons
 I use nice MEC buttons for the bigger buttons. The button caps are sold separately, there is a wide variety of possible button shapes and colors. I use the "DS" series buttons, which fit into 10mm holes. 
 
-The smaller buttons are generic 6x6x13 tactile buttons, you can probably find different ones from the ones on the BOM. 
+The smaller buttons are generic 6x6x13 tactile buttons, you can probably find different ones from the ones on the BOM which will still fit the PCB footprint.
 
 ## Daisy Seed & Pure Data
 See the STR500_code folder for the code and some information on how to load it onto the Seed.
@@ -104,5 +107,5 @@ See the STR500_code folder for the code and some information on how to load it o
 I am using Hammond 1590V enclosures. They are available unpainted (1590V), pre-painted black (1590VBK) or grey (1590VGY). Check the [enclosure readme](../STR500_v1.2_enclosure/) for information on how I prepare these. 
 
 ## Check the KiCAD
-This repo also has the KiCAD project included so you can check the circuit and layout if you aren't sure (and if you know how to use KiCAD!). 
+If you are comfortable with KiCAD you can check the circuit and layout if you aren't sure, the entire project is in this repo.
 
