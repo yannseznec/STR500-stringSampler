@@ -8,7 +8,7 @@ For step-by-step instructions on soldering the STR-500 PCB, go to the
 [PCB_build_instructions](PCB_instructions/PCB_build_instructions.md) file.
 
 ## Gametrak
-For my builds of the STR-500 I use a second generation Gametrak, which is easiest to disassemble and reassemble into a new container. See this video for info on how to hack: https://youtu.be/GELGBzM0ZOE 
+For my builds of the STR-500 I use a second generation Gametrak, which is easiest to disassemble and reassemble into a new container. The first version Gametrack did not have unified power and ground pins, and the string is not as usefully self-contained. See this video for info on how to hack: https://youtu.be/GELGBzM0ZOE 
 
 ![a picture of a hacked Gametrak string](pictures/STR500_gametrak.jpg)
 
@@ -21,8 +21,9 @@ When you disassemble a second generation Gametrak you will get two string cartri
 - Red: Joystick Y (or X...)
 - Brown: Ground
 
-You can also connect any potentiometers or analog inputs to these pins! You'll just need to figure out how to connect all three to the single power pin and single ground pin. The v2.1 version of the PCB has extra 2.54mm pin sockets for anyone who wants to connect normal potentiometers more easily or if you want to hack an earlier model Gametrak. The first version Gametrack did not have unified power and ground pins, and the string is not as usefully self-contained. 
-To-do: make a guide for connecting any analog inputs to these pins.
+You can also connect any potentiometers or analog inputs to these pins, including a first generation Gametrak! The v1.2 version of the PCB has extra 2.54mm pin sockets for anyone who wants to connect normal potentiometers more easily or if you want to hack an earlier model Gametrak. 
+
+This video shows how to connect a 1st generation Gametrak to these pins: https://youtu.be/SXaPP8HPXNw
 
 ![The various pins for connecting the Gametrak or other analog inputs](pictures/STR500_1.2_gametrak_pins.jpg)
 
@@ -43,7 +44,6 @@ Here are some completed STR-500 PCBs (without Seed microcontrollers) for referen
 
 ## mislabeled switches on the PCB 1.2 (October 2026)
 Another aesthetic mistake - the filter and pitch switches are mislabeled on the PCB v1.2 (October 2026). They switch that the code uses as a filter is in fact the pitch, and vice versa. This can be confusing! The enclosure design that I use labels the switches correctly. The next version of the PCB will correct this. 
-
 
 ## Audio Inputs and Outputs (these are identical)
 The audio input and output are both split into left and right, and each input and output channel have an accompanying ground. In the STR-500 code there is no switching between mono and stereo, it is always running both channels simultaneously. That means if you want to just stay in mono you could just use the Left (or Right) input and use the Left (or Right) input.
@@ -85,6 +85,8 @@ Be sure to mount the molex socket in the correct orientation to ensure that the 
 ![how the sockets are wired up](pictures/STR500_1.2_sockets_footswitch1.jpg)
 ![how the molex plugs into the board](pictures/STR500_1.2_footswitch_molex.jpg)
 
+To-do: make a short tutorial about making the footswitches.
+
 ## Capacitors
 These are kind of optional, they should theoretically lessen the noise on the audio output. Different values may give you different results, and the audio will work perfectly fine without them (albeit with some noise). 
 
@@ -96,9 +98,9 @@ The diode and the toggle switch are required when using the molex pin power inpu
 You can also power the whole thing through USB by simply plugging in the Seed using a standard USB-C (for the Seed3) or micro USB (for the Seed2) cable. If you use USB power the power switch and diode will not work. 
 
 ## Buttons
-I use nice MEC buttons for the bigger buttons. The button caps are sold separately, there is a wide variety of possible button shapes and colors. I use the "DS" series buttons, which fit into 10mm holes. 
+I use nice MEC buttons for the bigger buttons. The button caps are sold separately, there is a wide variety of possible button shapes and colors. I use the "DS" series button caps, which fit into 10mm holes. 
 
-The smaller buttons are generic 6x6x13 tactile buttons, you can probably find different ones from the ones on the BOM which will still fit the PCB footprint.
+The smaller buttons use a pretty generic footprint. The BOM has two options for these, and you can probably find more. One option is a tactile button with a tall actuator, another is a tactile button with a separate tall cap that fits onto the button. In any case you just want something that is tall enough to poke out the lid of the enclosure. 
 
 ## Daisy Seed & Pure Data
 See the STR500_code folder for the code and some information on how to load it onto the Seed.

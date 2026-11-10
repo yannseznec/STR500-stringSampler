@@ -3,7 +3,7 @@ This is a granular sampling system that runs on a Daisy Seed microcontroller. As
 
 Written in Pure Data. The easiest way to get it running on a Seed is to use PlugData for compiling. I use the "Big + SDRAM" SRAM setting in the compiler to allow for the relatively long sampling time. I set the blocksize to 100 for now. 
 
-For a step-by-step demonstration of flashing a new Daisy Seed with this code, watch this video! https://youtu.be/BN6O2XX6sH4
+For a step-by-step demonstration of flashing a new Daisy Seed with this code, watch this video: https://youtu.be/BN6O2XX6sH4
 
 The process is slightly simpler for flashing the code to a Seed that has already had this code (or other code that also requires the bootloader). Another video will follow at some point showing how that works.
 
@@ -13,4 +13,4 @@ The main difference is that this version does not use the [clone] object, which 
 
 This patch is particularly designed for use with a Gametrak string controller, resulting in a gestural sampling machine that I call the STR-500. If you've made it this far I suspect you are aware of that thing by now.
 
-For the STR-500 on Daisy Seed there is a JSON file (STR500_definitions.json) included for getting the interface elements (buttons, switches, Gametrak) connected to the Seed correctly. At some point I'll make a more detailed guide for how to get that to work. 
+For the STR-500 on Daisy Seed there is a JSON file (STR500_definitions.json) included for getting the interface elements (buttons, switches, Gametrak) connected to the Seed correctly. 

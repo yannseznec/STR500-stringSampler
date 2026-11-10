@@ -1,9 +1,10 @@
 Part,Number per device,Link,Secondary link,Notes
 IC socket for Daisy,2,https://www.electrokit.com/hylslist-2.54mm-1x20p,https://se.rs-online.com/web/p/pcb-sockets/2053211,
-Small buttons,2,https://www.electrokit.com/en/tryckknapp-pcb-6x6x12mm-svart,,Generic tactile buttons. I use long ones which pop out the top of the lid.
+Small buttons,2,https://www.digikey.se/en/products/detail/e-switch/TL1105SPF250Q/271559,https://www.electrokit.com/en/tryckknapp-pcb-6x6x12mm-svart,Either buttons work. E-switch ones are nicer but need caps
+Small button caps,2,https://www.digikey.se/sv/products/detail/e-switch/1RWHT/271578?srsltid=AYCX9vKzoqJ9mt-OyZBlzq4-qyCwa8Ews-4WcttOa62NhDdlP3hHKPpU,,Needed if using the E-switch small buttons. Also available in other colors and shapes 
 Bigger buttons,2,https://se.rs-online.com/web/p/taktila-stromstallare/7651563,https://www.digikey.se/sv/products/detail/mec-switches/5GTH935/2411559,MEC 5GTH935
 Big button caps,2,https://se.rs-online.com/web/p/taktila-stromstallartoppar/7651324,https://www.digikey.se/sv/products/filter/tillbehör-lock/210?s=N4IgTCBcDaILYFMDGACAjAEwM4gLoF8g,"So many nice colors possible, not all easy to find. I use the ""DS"" model, which fit 10mm holes"
-Switches RND 210-00471,3,https://www.digikey.se/en/products/detail/e-switch/200MSP1T1B1M2QEH/378916,,Other models are likely possible. Main thing is 3 pin with .1” spacing
+Switches,3,https://www.digikey.se/en/products/detail/e-switch/200MSP1T1B1M2QEH/378916,,Other models are likely possible. Main thing is 3 pin with .1” spacing
 Capacitors,2,,,"1 electrolytic 220µf, 1 .1µf ceramic"
 Resistor,1,,,"220ohm (roughly, for LED)"
 LED,1,,,I use yellow 5mm
@@ -15,7 +16,7 @@ M5 screws,4,https://se.rs-online.com/web/p/maskinskruv/9087719,,For gametrak mou
 M5 nuts,4,https://se.rs-online.com/web/p/sexkantsmuttrar/2874065,,For gametrak mounting
 M5 standoffs,4,https://www.electrokit.com/en/distanshylsa-m5-10mm-metall,https://www.digikey.se/en/products/detail/würth-elektronik/970120581/6174778,"For gametrak mounting. I use 10mm spacers together with a few washers. The 12mm spacers might work better, need to test. "
 M5 hole washers,8,,,Useful for adjusting Gametrak mounting distance
-M3 standoffs,2,https://se.rs-online.com/web/p/distansbultar/1842769,,8mm. For PCB lid mounting
+M3 standoffs,2,https://www.mouser.se/en/ProductDetail/Wurth-Elektronik/971090321?qs=wr8lucFkNMUzJvD35cI0dg%3D%3D,,9mm. For PCB lid mounting
 M3 screws,2,https://se.rs-online.com/web/p/maskinskruv/0553396,https://se.rs-online.com/web/p/hylsskruv/4839751,PCB lid mounting
 M3 nuts,2,https://se.rs-online.com/web/p/sexkantsmuttrar/0560293,,PCB lid mounting
 Power socket,1,https://www.electrokit.com/en/dc-jack-2.1mm-chassi-rund-brytande,,2.1mm pin
@@ -28,3 +29,9 @@ Enclosure,1,https://www.electrokit.com/en/aluminiumlada-gjuten-1590v-ip54-119x11
 Jumper cap,2,https://se.rs-online.com/web/p/byglar-och-shuntar/2518682,,Optional - for bridging the footswitch pins
 Gametrak,1,,,"I use the later model gametrak, looks like a TIE fighter, check my videos for more info"
 Daisy Seed,1,https://daisy.audio/products/seed3,,Older Seed 2 also works. Have not tested with Seed 1.
+,,,,
+Footswitches (optional),,,,
+Latching footswitch,,https://www.tme.eu/se/en/details/fc71055/standard-switches/cliff/,,Good for playback only
+Momentary footswitch,,https://www.thomann.se/tad_footswitch_momentary_spst.htm ,,Good for recording or playback
+Jack socket,,https://www.tme.eu/se/en/details/acjm-mvs-2/jack-connectors/amphenol/,,Same as the ones I use for the instrument
+Hammond 1590 box,,https://se.rs-online.com/web/p/inkapslingar-for-generellt-bruk/3439524,,Teeny tiny nice little box
