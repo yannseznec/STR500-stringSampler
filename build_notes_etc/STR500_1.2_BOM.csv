@@ -1,30 +1,32 @@
 Part,Number per device,Link,Secondary link,Notes
-IC socket for Daisy,2,https://www.electrokit.com/hylslist-2.54mm-1x20p,https://se.rs-online.com/web/p/pcb-sockets/2053211,
+IC socket for Daisy,2,https://www.electrokit.com/hylslist-2.54mm-1x20p,https://se.rs-online.com/web/p/pcb-sockets/2053211,Würth 61302011821
 Small buttons,2,https://www.digikey.se/en/products/detail/e-switch/TL1105SPF250Q/271559,https://www.electrokit.com/en/tryckknapp-pcb-6x6x12mm-svart,Either buttons work. E-switch ones are nicer but need caps
-Small button caps,2,https://www.digikey.se/sv/products/detail/e-switch/1RWHT/271578?srsltid=AYCX9vKzoqJ9mt-OyZBlzq4-qyCwa8Ews-4WcttOa62NhDdlP3hHKPpU,,Needed if using the E-switch small buttons. Also available in other colors and shapes 
+Small button caps,2,https://www.digikey.se/en/products/detail/e-switch/1RWHT/271578,,Needed if using the E-switch small buttons. Also available in other colors and shapes 
 Bigger buttons,2,https://se.rs-online.com/web/p/taktila-stromstallare/7651563,https://www.digikey.se/sv/products/detail/mec-switches/5GTH935/2411559,MEC 5GTH935
 Big button caps,2,https://se.rs-online.com/web/p/taktila-stromstallartoppar/7651324,https://www.digikey.se/sv/products/filter/tillbehör-lock/210?s=N4IgTCBcDaILYFMDGACAjAEwM4gLoF8g,"So many nice colors possible, not all easy to find. I use the ""DS"" model, which fit 10mm holes"
 Switches,3,https://www.digikey.se/en/products/detail/e-switch/200MSP1T1B1M2QEH/378916,,Other models are likely possible. Main thing is 3 pin with .1” spacing
-Capacitors,2,,,"1 electrolytic 220µf, 1 .1µf ceramic"
-Resistor,1,,,"220ohm (roughly, for LED)"
+Capacitor .1µf,1,https://www.digikey.se/sv/products/detail/tdk/FA28X8R1E104KNU06/5866421,,ceramic capacitor. PCB has 5mm spacing between legs 
+Capacitor 220µf,1,https://www.digikey.se/en/products/detail/rubycon/25PK220MEFC6-3X11/3563070,,electrolytic capacitor
+Resistor,1,https://www.digikey.se/en/products/detail/stackpole-electronics-inc/CF18JT220R/1741639,,"220ohm (roughly, for LED). PCB has 7.5mm spacing between legs"
 LED,1,,,I use yellow 5mm
 Diode,1,,,1n4001
 Molex 6pin connectors,1,https://www.electrokit.com/en/kontakt-kk-pcb-2.54mm-6-pol,https://se.farnell.com/multicomp-pro/mc34635/header-square-pin-2-54mm-6way/dp/1675768,For the foot switch connector. If not using foot switches you can avoid this and just bridge four pins (see the build notes)
 Molex 2pin connectors,5,https://se.farnell.com/multicomp-pro/mc34629/header-tht-vertical-2-54mm-2way/dp/1675764,,For audio in/out and power connector. You can choose other connection options using the 2.54” holes
 JST connector,1,https://www.electrokit.com/en/stiftlist-ph-5-pol-2.0mm,,"For easy Gametrak connection. Other connection options available, see build notes"
-"2.54"" pins",,,https://www.digikey.se/en/products/detail/samtec-inc/TSW-103-07-F-T/6691826,standard 2.54mm pins for the alternative Gametrak connectors (optional). Useful to have a 3x3 pin and a single row
+"2.54"" 3x3 pins",1,https://www.digikey.se/en/products/detail/samtec-inc/TSW-103-07-F-T/6691826,,standard 2.54mm pins for the first alternative Gametrak connector (optional). 
+"2.54"" 1x5 pins",1,https://www.digikey.se/en/products/detail/sullins-connector-solutions/PREC040SAAN-RC/2774814,,standard 2.54mm pins for the second alternative Gametrak connector (optional). 
 M5 screws,4,https://se.rs-online.com/web/p/maskinskruv/9087719,,For gametrak mounting. 45 or 50mm
 M5 nuts,4,https://se.rs-online.com/web/p/sexkantsmuttrar/2874065,,For gametrak mounting
 M5 standoffs,4,https://www.electrokit.com/en/distanshylsa-m5-10mm-metall,https://www.digikey.se/en/products/detail/würth-elektronik/970120581/6174778,"For gametrak mounting. I use 10mm spacers together with a few washers. The 12mm spacers might work better, need to test. "
 M5 hole washers,8,,,Useful for adjusting Gametrak mounting distance
-M3 standoffs,2,https://www.mouser.se/en/ProductDetail/Wurth-Elektronik/971090321?qs=wr8lucFkNMUzJvD35cI0dg%3D%3D,,9mm. For PCB lid mounting
+M3 standoffs,2,https://www.mouser.se/en/ProductDetail/Wurth-Elektronik/971090321?qs=wr8lucFkNMUzJvD35cI0dg%3D%3D,,9mm. For PCB lid mounting. Wurth 971090321
 M3 screws,2,https://se.rs-online.com/web/p/maskinskruv/0553396,https://se.rs-online.com/web/p/hylsskruv/4839751,PCB lid mounting
 M3 nuts,2,https://se.rs-online.com/web/p/sexkantsmuttrar/0560293,,PCB lid mounting
 Power socket,1,https://www.electrokit.com/en/dc-jack-2.1mm-chassi-rund-brytande,,2.1mm pin
 2 pin molex,5,https://se.farnell.com/multicomp-pro/mc34481/crimp-housing-2-54mm-2way/dp/1675754,,If you want to crimp your own
 6 wire molex cables,1,https://www.electrokit.com/en/kontakthus-kk-med-kabel-6-pol-20cm,,Pre-crimped cables for lazy people like me
 2 wire molex cable,1,https://www.electrokit.com/en/kontakt-kk-pcb-2.54mm-2-pol,,Pre-crimped cables for lazy people like me
-Audio Jack sockets,6,https://se.rs-online.com/web/p/jackkontakter-och-uttag/2617666?referrer=distrelec,https://www.digikey.be/en/products/detail/amphenol-sine-systems-corp/ACJM-MVS-2S/10443648,Amphenol - ACJM-MVS-2S Switching audio sockets for mono/stereo. See build notes.
+Audio Jack sockets,6,https://se.rs-online.com/web/p/jackkontakter-och-uttag/2617666,https://www.digikey.be/en/products/detail/amphenol-sine-systems-corp/ACJM-MVS-2S/10443648,Amphenol - ACJM-MVS-2S Switching audio sockets for mono/stereo. See build notes.
 Power supply,1,https://www.tme.eu/en/katalog/?queryPhrase=NGE12I05-P1J,,"5-12v, center positive. I use these nice Mean Well adapters, they have separate plugs for each region"
 Enclosure,1,https://www.electrokit.com/en/aluminiumlada-gjuten-1590v-ip54-119x119x90mm,,"Hammond 1590V. Available unpainted, or pre-painted black (1590VBK) or grey (1590VGY)."
 Jumper cap,2,https://se.rs-online.com/web/p/byglar-och-shuntar/2518682,,Optional - for bridging the footswitch pins
