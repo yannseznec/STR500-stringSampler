@@ -35,6 +35,9 @@ If you are planning on using a first generation Gametrak, or some other analog i
 ## Footswitch 
 When I send you the Kit I will attach two little jumper pins on the Footswitch header on the PCB. This enable the STR-500 play and record buttons to work without the footswitch sockets attached, which makes it easier to get up and running. These jumper pins must stay on the header pins unless you replace them with the sockets. More information about this is available on the [Build Notes](Build_Notes.md). 
 
+![Footswitch bypass pins in place](pictures/STR500_1.2_footswitch_bypass.jpg)
+
+
 To-do: a tutorial on making a footswitch or other external control
 
 
@@ -45,7 +48,7 @@ I have included rather tall button caps on the smaller buttons. Various other ca
 
 *note: some earlier versions I made used different buttons, without replaceable covers, for the calibration*
 
-![STR-500 PCBs, populated with components](pictures/STR500_1.2_PCB_complete.jpg)
+![STR-500 buttons](pictures/STR500_kit_4.jpg)
 
 ## Hardware
 I have included the same hardware that I use to make my instruments. Namely, two 9mm M3 standoffs and little M3 screws. I use these to attach the PCB to the lid of my enclosures, along with the three nuts on the toggle switches. This keeps everything nice and solid under the lid. These are all of course optional, you can figure out any other attachment method you like to fit whatever enclosure you end up using. 
