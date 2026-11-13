@@ -2,6 +2,8 @@
 
 Some information for people who have bought a STR-500 DIY Kit. There is a lot of overlap here with the [PCB_build_instructions](PCB_instructions/PCB_build_instructions.md) and [Build Notes](Build_Notes.md), but hopefully this is useful too. 
 
+![STR-500 Kit](pictures/STR500_kit_1.jpg)
+
 ## What's in the box
 An STR-500 DIY Kit comes with the following:
 - PCB with all components soldered
@@ -14,6 +16,8 @@ An STR-500 DIY Kit comes with the following:
 - 5 pin JST PH cable for use with a second generation Gametrak
 - Power supply (if you ordered one)
 - Daisy Seed microcontroller (if you ordered one)
+
+![STR-500 Kit](pictures/STR500_kit_3.jpg)
 
 ## Gametrak
 The STR-500 is designed with a Gametrak string controller in mind, though you can connect other analog inputs too. See this video for info on how to hack Gametraks: https://youtu.be/GELGBzM0ZOE 
