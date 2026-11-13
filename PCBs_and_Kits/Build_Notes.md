@@ -103,7 +103,7 @@ I use nice MEC buttons for the bigger buttons. The button caps are sold separate
 The smaller buttons use a pretty generic footprint. The BOM has two options for these, and you can probably find more. One option is a tactile button with a tall actuator, another is a tactile button with a separate tall cap that fits onto the button. In any case you just want something that is tall enough to poke out the lid of the enclosure. 
 
 ## Daisy Seed & Pure Data
-See the STR500_code folder for the code and some information on how to load it onto the Seed.
+See the [STR500_code folder](../STR500_code)  folder for the code and some information on how to load it onto the Seed.
 
 ## Enclosure
 I am using Hammond 1590V enclosures. They are available unpainted (1590V), pre-painted black (1590VBK) or grey (1590VGY). Check the [enclosure readme](../STR500_v1.2_enclosure/) for information on how I prepare these. 
