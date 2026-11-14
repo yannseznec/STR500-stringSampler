@@ -33,7 +33,7 @@ If you are planning on using a first generation Gametrak, or some other analog i
 
 
 ## Footswitch 
-When I send you the Kit I will attach two little jumper pins on the Footswitch header on the PCB. This enable the STR-500 play and record buttons to work without the footswitch sockets attached, which makes it easier to get up and running. These jumper pins must stay on the header pins unless you replace them with the sockets. More information about this is available on the [Build Notes](Build_Notes.md). 
+When I send you the Kit I will attach two little jumper pins on the Footswitch header on the PCB. This enables the STR-500 play and record buttons to work without the footswitch sockets attached, which makes it easier to get up and running. These jumper pins must stay on the header pins unless you replace them with the sockets. More information about this is available on the [Build Notes](Build_Notes.md). 
 
 ![Footswitch bypass pins in place](pictures/STR500_1.2_footswitch_bypass.jpg)
 
