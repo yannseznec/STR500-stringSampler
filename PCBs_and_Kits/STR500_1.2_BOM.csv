@@ -11,7 +11,7 @@ Resistor,1,https://www.digikey.se/en/products/detail/stackpole-electronics-inc/C
 LED,1,https://www.electrokit.com/en/led-5mm-gul-diffus-1500mcd,,I use yellow 5mm
 Diode,1,https://www.electrokit.com/en/1n4001-do-41-50v-1a,,1n4001
 Molex 6pin connectors,1,https://www.electrokit.com/en/kontakt-kk-pcb-2.54mm-6-pol,https://se.farnell.com/multicomp-pro/mc34635/header-square-pin-2-54mm-6way/dp/1675768,For the foot switch connector. If not using foot switches you can avoid this and just bridge four pins (see the build notes)
-Molex 2pin connectors,5,https://se.farnell.com/multicomp-pro/mc34629/header-tht-vertical-2-54mm-2way/dp/1675764,,For audio in/out and power connector. You can choose other connection options using the 2.54” holes
+Molex 2pin connectors,5,https://se.rs-online.com/web/p/kretskortsstiftlister/4838461,,For audio in/out and power connector. You can choose other connection options using the 2.54” holes
 JST connector,1,https://www.electrokit.com/en/stiftlist-ph-5-pol-2.0mm,,"For easy Gametrak connection. Other connection options available, see build notes"
 "2.54"" 3x3 pins",1,https://www.digikey.se/en/products/detail/samtec-inc/TSW-103-07-F-T/6691826,,standard 2.54mm pins for the first alternative Gametrak connector (optional). 
 "2.54"" 1x5 pins",1,https://www.digikey.se/en/products/detail/sullins-connector-solutions/PREC040SAAN-RC/2774814,,standard 2.54mm pins for the second alternative Gametrak connector (optional). 
@@ -28,7 +28,7 @@ Power socket,1,https://www.electrokit.com/en/dc-jack-2.1mm-chassi-rund-brytande,
 2 wire molex cable,1,https://www.electrokit.com/en/kontakt-kk-pcb-2.54mm-2-pol,,Pre-crimped cables for lazy people like me
 Audio Jack sockets,6,https://se.rs-online.com/web/p/jackkontakter-och-uttag/2617666,https://www.digikey.be/en/products/detail/amphenol-sine-systems-corp/ACJM-MVS-2S/10443648,Amphenol - ACJM-MVS-2S Switching audio sockets for mono/stereo. See build notes.
 Power supply,1,https://www.tme.eu/en/katalog/?queryPhrase=NGE12I05-P1J,,"5-12v, center positive. I use these nice Mean Well adapters, they have separate plugs for each region"
-Enclosure,1,https://www.electrokit.com/en/aluminiumlada-gjuten-1590v-ip54-119x119x90mm,,"Hammond 1590V. Available unpainted, or pre-painted black (1590VBK) or grey (1590VGY)."
+Enclosure,1,https://mou.sr/4C8MIr7,https://www.digikey.se/sv/products/detail/hammond-manufacturing/1590V/131040?s=N4IgTCBcDaIBYEMC2SD2A7AJgAgIwFYBOABgDcQBdAXyA,"Hammond 1590V. Available unpainted, or pre-painted black (1590VBK) or grey (1590VGY)."
 Jumper cap,2,https://se.rs-online.com/web/p/byglar-och-shuntar/2518682,,Optional - for bridging the footswitch pins
 Gametrak,1,,,"I use the later model gametrak, looks like a TIE fighter, check my videos for more info"
 Daisy Seed,1,https://daisy.audio/products/seed3,,Older Seed 2 also works. Have not tested with Seed 1.
