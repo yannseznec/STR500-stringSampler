@@ -31,8 +31,8 @@ This video shows how to connect a 1st generation Gametrak to these pins: https:/
 ## Wiring the Molex connectors
 For ease of build I used pre-wired 6-way Molex connectors for the footswitch controls. I also use pre-wired 2-way connectors for Power and Audio input/output. These attach to standard molex pins on the PCB. They use standard 2.54mm hole distances, so other methods are possible. I find the Molex system to be very useful in terms of being able to mount the connectors and Gametrak separately in the box while retaining stability once they are plugged in.
 
-## Note! Possibly confusing Molex footprint!
-The PCB version 1.2 (labeled October 2026) has a possibly confusing screenprint illustration for the audio input and output pins. The outline implies that the Molex should be mounted with the back support facing the board. If you buy the pre-crimped 2-pin cables that are linked on the BOM, and you want to color code the brown cables to ground, you should actually mount the Molex pins in the opposite direction. This will ensure that the red wires are carrying signal and the brown wires are carrying ground. The "-" symbol on the board is indicating the correct pin for ground. 
+## Note! Possibly confusing Molex footprint on the October 2026 PCB!
+The PCB version 1.2, October 2026, has a possibly confusing screenprint illustration for the audio input and output pins. The outline implies that the Molex should be mounted with the back support facing the board. If you buy the pre-crimped 2-pin cables that are linked on the BOM, and you want to color code the brown cables to ground, you should actually mount the Molex pins in the opposite direction. This will ensure that the red wires are carrying signal and the brown wires are carrying ground. The "-" symbol on the board is indicating the correct pin for ground. 
 
 You can approach the wiring of those holes in many ways, so this may not apply to you at all. Just be sure that the pins labeled "-" are connected to the ground pin on your audio sockets. 
 
@@ -42,8 +42,10 @@ Here are some completed STR-500 PCBs (without Seed microcontrollers) for referen
 
 ![STR-500 PCBs, populated with components](pictures/STR500_1.2_PCB_complete.jpg)
 
+The November 2026 version of the PCB has this labeling turned around to better match how I usually solder the Molex pins.
+
 ## mislabeled switches on the PCB 1.2 (October 2026)
-Another aesthetic mistake - the filter and pitch switches are mislabeled on the PCB v1.2 (October 2026). They switch that the code uses as a filter is in fact the pitch, and vice versa. This can be confusing! The enclosure design that I use labels the switches correctly. The next version of the PCB will correct this. 
+Another aesthetic mistake - the filter and pitch switches are mislabeled on the PCB v1.2 (October 2026). They switch that the code uses as a filter is in fact the pitch, and vice versa. This can be confusing! The enclosure design that I use labels the switches correctly. This is corrected in the November 2026 version. 
 
 ## Audio Inputs and Outputs (these are identical)
 The audio input and output are both split into left and right, and each input and output channel have an accompanying ground. In the STR-500 code there is no switching between mono and stereo, it is always running both channels simultaneously. That means if you want to just stay in mono you could just use the Left (or Right) input and use the Left (or Right) input.

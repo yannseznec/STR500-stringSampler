@@ -1,4 +1,4 @@
-# STR500 PCB component soldering guide (v1.2, October 2026)
+# STR500 PCB v1.2 component soldering guide (both October and November 2026 versions)
 
 # Step by step instructions for soldering the STR500 PCB
 
@@ -45,6 +45,8 @@ Solder the footswitch socket as well. See the [build notes](../Build_Notes.md) f
 
 ![Finished Molex sockets](pictures/PCB_step4c.jpg)
 
+These photos show the October 2026 version of the PCB. The November 2026 version has the footprint screenprint turned around to better match the Molex. The polarity is the same in both cases, just be sure your ground wire is going to ground. 
+
 ## Step 5: the Daisy Seed sockets
 
 Take your Daisy Seed board and attach the two sockets. Then sit the board + sockets onto the PCB - this ensures that the sockets will be correctly aligned. 
@@ -85,7 +87,7 @@ The switches can be fiddly and tricky to align correctly. My own method is to us
 
 This method only works if you have a pre-drilled lid, of course! If you don't, you'll need to figure out your own method. Good luck!
 
-A note about the switches: the PCB v1.2 (October 2026) has the pitch and filter switches labeled incorrectly on the board. The pitch should be filter, and vice versa. This doesn't change anything materially, it can just be confusing, sorry about that! The next version of the PCB will correct this.
+A note about the switches: the PCB v1.2 (October 2026) has the pitch and filter switches labeled incorrectly on the board. The pitch should be filter, and vice versa. This doesn't change anything materially, it can just be confusing, sorry about that! This is fixed on the November 2026 revision of the PCB.
 
 ## Step 10: the LED
 
